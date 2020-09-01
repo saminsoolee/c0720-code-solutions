@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "array-manipulation-1",
+			"path": ".."
+		},
+		{
+			"name": "c0720-code-solutions",
+			"path": "../../../lfz/c0720-code-solutions"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "array-manipulation-1"
+	}
+}
