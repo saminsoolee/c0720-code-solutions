@@ -1,3 +1,3 @@
-// module.exports = function divide(x, y) {
-//   return x / y;
-// };
+module.exports = function divide(x, y) {
+  return x / y;
+};

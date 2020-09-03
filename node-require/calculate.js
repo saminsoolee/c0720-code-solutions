@@ -1,19 +1,15 @@
-// /* eslint-disable no-console */
-// const add = require('./add');
-// const subtract = require('./subtract');
-// const multiply = require('./multiply');
-// const divide = require('./divide');
+/* eslint-disable no-console */
+const add = require('./add');
+const subtract = require('./subtract');
+const multiply = require('./multiply');
+const divide = require('./divide');
 
-// console.log(process.argv);
-
-// /* Perform conditional logic based on values passed to the program
-
-// string '2' needs to be changed to a number
-// the operations ex: add, needs to be able to take plus
-// ex: minus, needs to be able to take subtract
-// ex: times, needs to be able to take multiply
-// ex: divide, needs to be able to take over
-
-// -use parseInt to take the string and return an integer
-// -need to make the phrases equal to the variable names
-// */
+if (process.argv[3] === 'plus' || process.argv[3] === '+') {
+  console.log(add(parseInt(process.argv[2]), parseInt(process.argv[4])));
+} else if (process.argv[3] === 'minus' || process.argv[3] === '-') {
+  console.log(subtract(parseInt(process.argv[2]), parseInt(process.argv[4])));
+} else if (process.argv[3] === 'times' || process.argv[3] === '*') {
+  console.log(multiply(parseInt(process.argv[2]), parseInt(process.argv[4])));
+} else if (process.argv[3] === 'over' || process.argv[3] === '/') {
+  console.log(divide(parseInt(process.argv[2]), parseInt(process.argv[4])));
+}
