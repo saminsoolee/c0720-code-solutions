@@ -1,3 +1,2 @@
 /* eslint-disable no-console */
-console.log('hello');
-/* test */
+console.log(process.argv[2]);
