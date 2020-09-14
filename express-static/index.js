@@ -1,6 +1,13 @@
-// const express = require('express');
-// const app = express();
+/* eslint-disable no-console */
+const express = require('express');
+const path = require('path');
+const app = express();
 
-// const joined = app.path.join('__dirname', 'public');
+const joined = path.join(__dirname, 'public');
+const staticMid = express.static(joined);
 
-// app.use('/static', express.static('public'));
+app.use(staticMid);
+
+app.listen(3000, () => {
+  console.log('Listening to port 3000~');
+});
