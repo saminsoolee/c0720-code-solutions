@@ -30,7 +30,7 @@ class NewsletterForm extends React.Component {
             type="email"
             name="email"
             onChange={this.handleChange}
-            value={this.state.value}/>
+            value={this.state.email}/>
           <button>Touch Me</button>
         </form>
       </>
