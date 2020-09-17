@@ -29,7 +29,8 @@ class NewsletterForm extends React.Component {
           <input
             onChange={this.handleChange}
             type="email"
-            name="email">
+            name="email"
+            value="email">
           </input>
           <button>Touch Me</button>
         </form>
