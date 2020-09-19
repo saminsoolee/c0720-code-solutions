@@ -1,4 +1,4 @@
-const { createElement } = require('../lib');
+import { createElement } from '../lib';
 
 class TodoList {
   constructor(onToggle) {
@@ -49,4 +49,4 @@ class TodoList {
   }
 }
 
-module.exports = TodoList;
+export default TodoList;
