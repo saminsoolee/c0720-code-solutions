@@ -1,0 +1,35 @@
+.hot-button {
+  border: solid black;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.hot-button.cold {
+  background-color: blue;
+  color: red;
+}
+
+.hot-button.cool {
+  background-color: aqua;
+  color: orangered;
+}
+
+.hot-button.meek {
+  background-color: whitesmoke;
+  color: green;
+}
+
+.hot-button.warm {
+  background-color: orange;
+  color: aqua;
+}
+
+.hot-button.hot {
+  background-color: orangered;
+  color: blue;
+}
+
+.hot-button.nuclear {
+  background-color: crimson;
+  color: violet;
+}
