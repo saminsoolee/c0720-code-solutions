@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from 'react';
 import UserList from './user-list';
 
@@ -12,6 +13,10 @@ class App extends React.Component {
 
   componentDidMount() {
     /* your code here */
+    fetch('https://jsonplaceholder.typicode.com/users')
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .catch(error => { console.error('Error:', error); });
   }
 
   render() {
