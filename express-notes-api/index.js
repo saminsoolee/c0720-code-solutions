@@ -1,9 +1,10 @@
-/* eslint-disable no-console */
+// /* eslint-disable no-console */
 // const fs = require('fs');
 // const express = require('express');
 // const data = require('./data');
-// const { executionAsyncResource } = require('async_hooks');
 // const app = express();
+
+// console.log('hello');
 
 // app.get('/api/notes', (req, res) => {
 //   const notes = [];
@@ -84,7 +85,10 @@
 // });
 
 // app.put('api/notes/:id', (req, res) => {
-//   if (req.params.id < 0 || req.params.id.content === '') {
+//   const id = parseInt(req.params.id, 10);
+//   console.log(id);
+//   // if (id < 0 || isNaN(id)) {
+//   if (true) {
 //     res.status(400).json({
 //       error: 'id must be a positive integer'
 //     });
@@ -106,8 +110,9 @@
 //       return;
 //     }
 //     res.status(200).json({});
+//   });
 // });
 
 // app.listen(3000, () => {
-//   console.log('Listening to port 3000!')
+//   console.log('Listening to port 3000!');
 // });
