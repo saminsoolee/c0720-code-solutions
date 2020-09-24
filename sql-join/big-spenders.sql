@@ -2,7 +2,7 @@ select "customers"."firstName" as "firstname",
       "customers"."lastName" as "lastname"
 from "customers"
 join "payments" using ("customerId")
-order by "amount"
+order by "amount" desc
 limit 10
 
 -- big-spenders.sql
