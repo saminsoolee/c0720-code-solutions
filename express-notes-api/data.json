@@ -7,7 +7,7 @@
     },
     "2": {
       "id": 2,
-      "content": "Prototypal inheritance is how JavaScript objects delegate behavior."
+      "content": "this and node.js are so foreign to me"
     },
     "3": {
       "id": 3,
@@ -44,7 +44,6 @@
     "11": {
       "id": 11,
       "content": "hello"
-    },
-    "undefined": ""
+    }
   }
 }
