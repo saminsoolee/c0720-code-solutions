@@ -8,6 +8,3 @@ function isUpperCased(word) {
   }
   return true;
 }
-// conditional,for loop
-//
-// the functtion checks EVERY SINGLE LETTER - for loop
