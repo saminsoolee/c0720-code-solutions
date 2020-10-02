@@ -1,6 +1,6 @@
+/* eslint-disable no-console */
 const pg = require('pg');
 const express = require('express');
-const { error } = require('jquery');
 const app = express();
 
 // only create ONE pool for your whole server
@@ -42,7 +42,6 @@ app.post('/api/grades', (req, res, next) => {
   const values = [studentName, studentCourse, studentGrade];
   db.query(sql, values)
     .then(data => {
-      console.log(data.rows);
       res.status(201).json(data.rows[0]);
     })
     .catch(err => {
